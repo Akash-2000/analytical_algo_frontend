@@ -1,0 +1,65 @@
+.verify{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+        background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+        background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%), repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%), radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%), radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%), radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+.verifyform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    width:100px;
+    height:100px
+}
+h1{
+    margin:0
+}
+.butt1{
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    border:none;
+    outline: none;
+    background-color: rgb(76, 5, 76);
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.border{
+    text-align: center;
+    margin: 10px;
+}
+.verifyform1{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: aliceblue;
+        border-radius: 10px;
+        width: 400px;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.boxer{
+    width: 5%;
+    border:none;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    margin-right: 20px;
+
+}
