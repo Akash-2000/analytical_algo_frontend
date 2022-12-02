@@ -17,7 +17,7 @@ export default function Regitser() {
 
   const handleSubmit = async(e)=>{
     e.preventDefault()
-   await axios.post("http://localhost:5000/api/auth/register",inputs).then((res)=>{
+   await axios.post("https://tense-yoke-deer.cyclic.app/api/auth/register",inputs).then((res)=>{
     console.log(res.data)
     if(res.status== 200){
         alert("Registered sucessfully check your mail for verifcation number")

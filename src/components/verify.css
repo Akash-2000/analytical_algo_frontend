@@ -18,6 +18,18 @@
     height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media only screen and (max-width: 480px) {
+    .verifyform{
+        width: 299px;
+            height: 330px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+        .verifyform1{
+            width: 299px;
+            height: 250px;
+        }
+}
 img{
     width:100px;
     height:100px
@@ -51,6 +63,14 @@ h1{
         width: 400px;
         height: 300px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 480px) {
+ 
+    .verifyform1 {
+        width: 299px;
+        height: 250px;
+    }
 }
 .boxer{
     width: 5%;

@@ -40,7 +40,7 @@ const [verifiaction_token,setverifcationToken] = useState({})
         VerificationNumber:parseInt(data)
     }
     try{
-        await axios.post("http://localhost:5000/api/auth/login",data1).then((res)=>{
+        await axios.post("https://tense-yoke-deer.cyclic.app/api/auth/login",data1).then((res)=>{
             if(res.status == 200){
                 alert("Successfully logged in")
                 localStorage.setItem("username",res.data.userName)
@@ -48,7 +48,7 @@ const [verifiaction_token,setverifcationToken] = useState({})
             }
                     })
     }catch(error){
-        console.log(error)
+        alert(error.response.data)
     }
   }
   return (
